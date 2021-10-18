@@ -1,6 +1,7 @@
 a {
   font-size: 10px;
   text-align: center;
+  text-decoration: none;
 }
 body {
   font-family: "Noto Sans JP", sans-serif;
@@ -24,6 +25,10 @@ li {
   height: 19px;
   line-height: 1;
   list-style: none;
+}
+small {
+  font-size: 10px;
+  text-align: center;
 }
 .float-left {
   float: left;
@@ -49,9 +54,11 @@ li {
   background: white;
   border: 1px solid lightgray;
   border-radius: 10px;
-  margin: 20px auto;
-  max-width: 800px;
-  padding: 15px;
+  padding: 20px;
+}
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
 }
 .weather-icon {
   height: 64px;
