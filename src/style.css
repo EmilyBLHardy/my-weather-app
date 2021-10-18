@@ -26,6 +26,10 @@ li {
   line-height: 1;
   list-style: none;
 }
+li:first-letter {
+  text-transform: capitalize;
+}
+
 small {
   font-size: 10px;
   text-align: center;
