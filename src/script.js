@@ -54,6 +54,9 @@ function searchCity(city) {
   let apiEndpoint = `https://api.openweathermap.org/data/2.5/weather`;
   let apiUrl = `${apiEndpoint}?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(displayWeatherCondition);
+  if ("#city-input" === "melbourne") {
+    alert("Hello!");
+  }
 }
 
 function handleSubmit(event) {
@@ -81,6 +84,7 @@ function displayCelsiusTemperature(event) {
   fahrenheitLink.classList.remove("active");
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
+
 let celsiusTemperature = null;
 
 let searchForm = document.querySelector("#search-form");
