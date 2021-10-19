@@ -50,7 +50,8 @@
                 />
             </div>
            </div>        
-        </form>
+          </form>
+            <div class="overview">
             <h1 id="city"></h1>
               <ul>
                 <li id="date">
@@ -59,7 +60,7 @@
               </ul>
               <div class="row"> 
                 <div class="col-6">
-                  <div class="clearfix">
+                  <div class="clearfix weather-temperature">
                     <img 
                       src="" 
                       id="icon"
@@ -67,7 +68,9 @@
                     />
                     <div class="float-left">
                       <span class="temperature" id="temperature"></span>
-                      <span class="units">°C</span>   
+                      <span class="units">
+                        <a href="#" id="celsius-link" class="active">
+                        °C</a> | <a href="#" id="fahrenheit-link">°F</a></span>   
                     </div> 
                   </div> 
                 </div>
@@ -81,6 +84,7 @@
                     Wind: <span id="wind-speed"></span>km/h
                   </li>
                 </ul>
+                </div>
               </div>
              </div>
              </div>
