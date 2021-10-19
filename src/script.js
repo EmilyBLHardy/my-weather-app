@@ -49,15 +49,15 @@ function displayWeatherCondition(response) {
 }
 
 function searchCity(city) {
+  if ("#city-input" === `melbourne`) {
+    alert("Hello!");
+  }
   let units = "metric";
   let apiKey = "cabdbda40038ba7d1165b953b1c7bd6c";
   let apiEndpoint = `https://api.openweathermap.org/data/2.5/weather`;
   let apiUrl = `${apiEndpoint}?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(displayWeatherCondition);
-  if ("#city-input" === "melbourne") {
-    alert("Hello!");
   }
-}
 
 function handleSubmit(event) {
   event.preventDefault();
