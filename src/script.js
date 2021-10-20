@@ -127,4 +127,4 @@ dateElement.innerHTML = formatDate(currentTime);
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
-searchCity("Inverloch");
+searchCity("Melbourne, AU");
