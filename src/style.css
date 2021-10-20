@@ -69,6 +69,25 @@ small {
   margin: 30px auto;
   max-width: 600px;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-day {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+.weather-forecast-temperature-max {
+  font-weight: 300;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
 .weather-icon {
   height: 64px;
   width: 64px;
