@@ -9,7 +9,7 @@ body {
 h1 {
   color: black;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
   height: 24px;
   line-height: 28px;
   margin: 0;
@@ -69,7 +69,6 @@ small {
   margin: 30px auto;
   max-width: 600px;
 }
-
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
@@ -82,12 +81,11 @@ small {
   font-size: 13px;
 }
 .weather-forecast-temperature-max {
-  font-weight: 400;
+  font-weight: 500;
 }
 .weather-forecast-temperature-min {
   opacity: 0.5;
 }
-
 .weather-icon {
   height: 64px;
   width: 64px;
